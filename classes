@@ -1,0 +1,27 @@
+class Car():
+    color = ""
+    model = ""
+    speed = ""
+    brand = ""
+    fuel_tank = 0
+    number_of_wheels = 0
+    engine_size = 0
+    mileage = 0
+
+
+car_one = Car()    #car_one is an instance/object of the class car
+Car.brand = 'Tesla'
+Car.model = 'Model S'
+Car.engine_size = 396
+Car.number_of_wheels = 4
+Car.mileage = 0
+Car.speed = 280
+Car.colour = 'wine red' 
+
+print(f"Mary's car model: {Car.model}")
+
+#to define a method/function you must use 'def'
+#self exposes the whole class to the function. 
+# It enables the method to access the parameters set.
+def current_speed(self):
+    print(f"Current speed is {}")
